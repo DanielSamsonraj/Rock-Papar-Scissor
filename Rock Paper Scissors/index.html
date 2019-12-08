@@ -6,17 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<script>
-var name = prompt("Enter Player Name: ");
-if (name!='' && name!='null'){
-    document.write("Player Name: "+name);
-}
-else{
-    alert("Please refresh the page and enter players name");
-    document.location.reload(true)
-}
-
-</script>
+<script src="script.js"></script>
 <body>
+    <h1>
+        Welcome to Rock Paper Scissors
+    </h1>
+    <p>
+        Do you want to play the game: 
+    </p>
+    <button type="button" id="play" onclick="play()">Yes</button> 
+    <button type="button" id="dontplay" onclick="dontPlay()">No</button> 
+    
 </body>
 </html>
